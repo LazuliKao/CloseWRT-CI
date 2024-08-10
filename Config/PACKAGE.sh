@@ -13,15 +13,15 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-app-cloudflared=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-dockerman=y
-CONFIG_PACKAGE_luci-ssl-nginx=y
-CONFIG_PACKAGE_luci-app-frpc=y
-CONFIG_PACKAGE_luci-app-frps=y
 CONFIG_PACKAGE_docker-compose=y
 # CONFIG_PACKAGE_luci-app-openvpn-server=y
-# CONFIG_PACKAGE_luci-app-pptp-server=y
-# CONFIG_PACKAGE_luci-app-pptpd=y
-# CONFIG_PACKAGE_luci-app-nginx-manager=y
-# CONFIG_PACKAGE_ariang-nginx=y
+CONFIG_PACKAGE_luci-app-pptp-server=y
+CONFIG_PACKAGE_luci-app-pptpd=y
+CONFIG_PACKAGE_luci-app-frpc=y
+CONFIG_PACKAGE_luci-app-frps=y
+CONFIG_PACKAGE_luci-ssl-nginx=y
+CONFIG_PACKAGE_sing-box=y
+CONFIG_PACKAGE_luci-app-nginx-manager=y
 
 
 #删除插件
