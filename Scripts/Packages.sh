@@ -20,6 +20,15 @@ UPDATE_PACKAGE() {
 	fi
 }
 
+UPDATE_PACKAGE "luci-app-dockerman" "kenzok8/openwrt-packages" "master" "pkg"
+# UPDATE_PACKAGE "luci-app-ddns-go" "kenzok8/openwrt-packages" "master" "pkg"
+# UPDATE_PACKAGE "luci-app-store" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-alist" "kenzok8/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-aria2" "sirpdboy/sirpdboy-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-wolplus" "sirpdboy/sirpdboy-package" "main" "pkg"
+UPDATE_PACKAGE "luci-app-socat" "sirpdboy/sirpdboy-package" "main" "pkg"
+
+
 #UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
 UPDATE_PACKAGE "design" "0x676e67/luci-theme-design" "js"
