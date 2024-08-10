@@ -236,6 +236,7 @@ jobs:
         with:
           tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
+          token: ${{env.GITHUB_TOKEN}}
           body: |
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
