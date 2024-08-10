@@ -62,6 +62,18 @@ jobs:
       - name: Checkout Projects
         uses: actions/checkout@main
 
+      - name: Release Firmware
+        uses: softprops/action-gh-release@master
+        with:
+          tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
+          token: ${{env.GITHUB_TOKEN}}
+          body: |
+            源码：${{env.WRT_REPO}}
+            分支：${{env.WRT_BRANCH}}
+            平台：${{env.WRT_TARGET}}
+            设备：${{env.WRT_TYPE}}
+            地址：${{env.WRT_IP}}
+            密码：${{env.WRT_PW}}
       - name: Free Disk Space
         uses: endersonmenezes/free-disk-space@main
         with:
