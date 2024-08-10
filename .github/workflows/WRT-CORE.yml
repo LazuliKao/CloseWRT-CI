@@ -57,7 +57,8 @@ env:
 jobs:
   wrt_core:
     name: ${{inputs.WRT_SOURCE}}
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
     steps:
       - name: Checkout Projects
         uses: actions/checkout@main
