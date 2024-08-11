@@ -19,6 +19,7 @@ CONFIG_PACKAGE_luci-app-frps=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
 CONFIG_PACKAGE_luci-app-wan-mac=y
 CONFIG_PACKAGE_luci-app-cloudflarespeedtest=y
+CONFIG_PACKAGE_luci-app-homebox=y
 # CONFIG_PACKAGE_luci-app-openvpn-server=y
 CONFIG_PACKAGE_luci-app-pptp-server=y
 CONFIG_PACKAGE_luci-app-pptpd=y

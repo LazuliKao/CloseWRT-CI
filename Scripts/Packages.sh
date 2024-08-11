@@ -19,9 +19,21 @@ UPDATE_PACKAGE() {
 		mv -f $REPO_NAME $PKG_NAME
 	fi
 }
+UPDATE_PACKAGE "frp" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-frpc" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-frps" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-homebox" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-vlmcsd" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-wan-mac" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-ddns-go" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "ddns-go" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-zerotier" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-nginx-manager" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "cloudflared" "kenzok8/jell" "main" "pkg"
+# UPDATE_PACKAGE "luci-nginxer" "kenzok8/jell" "main" "pkg"
 
 # UPDATE_PACKAGE "sing-box" "kenzok8/wall" "main" "pkg"
-UPDATE_PACKAGE "luci-app-wan-mac" "kenzok8/small-package" "main" "pkg"
+# UPDATE_PACKAGE "luci-app-wan-mac" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-cloudflarespeedtest" "kenzok8/small-package" "main" "pkg"
 # UPDATE_PACKAGE "dockerd" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-dockerman" "kenzok8/small-package" "main" "pkg"
