@@ -95,7 +95,9 @@ jobs:
             /usr/share/azure* /usr/share/dotnet* /usr/share/glade* /usr/share/miniconda* /usr/share/php* /usr/share/swift \
             /var/lib/mysql* /var/log/azure*"
           testing: false
-
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
       - name: Initialization Environment
         env:
           DEBIAN_FRONTEND: noninteractive
