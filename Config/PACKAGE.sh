@@ -25,7 +25,6 @@ CONFIG_PACKAGE_luci-app-pptpd=y
 CONFIG_PACKAGE_luci-ssl-nginx=y
 # CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
-CONFIG_PACKAGE_luci-app-xlnetacc=y
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
 CONFIG_PACKAGE_luci-app-accesscontrol=y
 CONFIG_PACKAGE_luci-app-wol=y
