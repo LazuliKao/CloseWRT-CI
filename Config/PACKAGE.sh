@@ -31,6 +31,7 @@ CONFIG_PACKAGE_luci-app-wol=y
 
 CONFIG_PACKAGE_luci-app-nginx-manager=y
 CONFIG_PACKAGE_luci-app-cloudflared=y
+CONFIG_PACKAGE_cloudflared=y
 #删除插件
 CONFIG_PACKAGE_luci-app-ddns=n
 CONFIG_PACKAGE_luci-app-wireguard=n

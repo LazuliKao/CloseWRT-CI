@@ -20,12 +20,11 @@ UPDATE_PACKAGE() {
 	fi
 }
 
+UPDATE_PACKAGE "sing-box" "kenzok8/wall" "main" "pkg"
 UPDATE_PACKAGE "luci-app-wan-mac" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-cloudflarespeedtest" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "dockerd" "kenzok8/small-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-dockerman" "kenzok8/small-package" "main" "pkg"
-# UPDATE_PACKAGE "luci-app-ddns-go" "kenzok8/openwrt-packages" "master" "pkg"
-# UPDATE_PACKAGE "luci-app-store" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-alist" "kenzok8/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-aria2" "sirpdboy/sirpdboy-package" "main" "pkg"
 UPDATE_PACKAGE "luci-app-wolplus" "sirpdboy/sirpdboy-package" "main" "pkg"
