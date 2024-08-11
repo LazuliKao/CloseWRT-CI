@@ -1,5 +1,6 @@
 #增加插件
 # CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_lsblk=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-advancedplus=y
@@ -22,7 +23,7 @@ CONFIG_PACKAGE_luci-app-cloudflarespeedtest=y
 CONFIG_PACKAGE_luci-app-pptp-server=y
 CONFIG_PACKAGE_luci-app-pptpd=y
 CONFIG_PACKAGE_luci-ssl-nginx=y
-CONFIG_PACKAGE_sing-box=y
+# CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-xlnetacc=y
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
